@@ -1,0 +1,56 @@
+header{
+	background: #7691F3;
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.caixa{
+	Position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+h1{
+    padding: 5px 1px;
+}
+
+.lista{
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px;
+	box-sizing: border-box;
+	border: #B5C5FD 2px solid;
+	box: #B5C5FD;
+	border-radius: 10px;
+	display: inline;
+	margin-top: auto;
+}
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+}
+
+nav a:hover{
+	color: #C78C19;
+	text-decoration: underline;
+}
